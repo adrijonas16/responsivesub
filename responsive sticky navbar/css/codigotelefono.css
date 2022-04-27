@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    font-family: 'Goldplay-Light';
+    text-decoration: none;
+    outline: none; border:none;
+  }
+
+body{
+    background-color: white;
+    width: 100%;
+}
+
+nav{
+    background-color: #F6F5F5;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    padding:auto;
+}
+
+nav img{
+    width: 100px;
+    margin-left:40% ;
+    margin-top: 15px;
+}
+
+.registro{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+.registro .texto{
+    width: 100%;
+    height: 80px;
+}
+
+.registro .texto h1{
+    color: #6323C3;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.registro .correo{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.registro .correo img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    padding: auto;
+}
+
+.registro .correo h2{
+    width: 80%;
+    font-size: 15px;
+    float: right;
+    margin: auto;
+    padding: auto;
+}
+
+.registro .texto2{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.registro .codigo{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    justify-content: space-between;
+}
+
+.registro .codigo input{
+    border-bottom: 1px solid black;
+    width: 10%;
+    margin: auto;
+    padding: auto;
+    margin-bottom: 50px;
+    margin-left: 5%;
+}
+
+.registro .botones{
+    width: 100%;
+    height: 45px;
+}
+
+.registro .botones .verificar{
+    width: 100%;
+    height: 45px;
+    background-color: #6323C3;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.registro .botones .reenviar{
+    width: 100%;
+    height: 45px;
+    background-color: #F6F5F5;
+    color: grey;
+    font-size: 20px;
+    border-radius: 8px;
+}

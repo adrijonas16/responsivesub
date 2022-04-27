@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    font-family: 'Goldplay-Light';
+    text-decoration: none;
+    outline: none; border:none;
+  }
+
+body{
+    background-color: white;
+    width: 100%;
+}
+
+nav{
+    background-color: #F6F5F5;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    padding:auto;
+}
+
+nav img{
+    width: 100px;
+    margin-left:40% ;
+    margin-top: 15px;
+}
+
+.verificado{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+.verificado .gif{
+    width: 50%;
+    margin: auto;
+    padding: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 37%;
+}
+
+.verificado .gif img{
+    width: 100px;
+    margin: auto;
+    padding: auto;
+}
+
+.verificado .texto{
+    width: 100%;
+    height: 80px;
+
+}
+
+.verificado .texto h1{
+    color: #6323C3;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px !important;
+    margin-top: 20px;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+}
+
+.verificado .texto p{
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+.verificado .botones{
+    width: 100%;
+}
+
+.verificado .botones .continuar{
+    width: 100%;
+    background-color: #6323C3;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    height: 45px;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,349 @@
+
+body { background-color: #f5f5f5; padding: 20px; }
+
+.card-slider {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  @media screen and (max-width: 1024px) {
+    width: 80%;
+  }
+}
+.slick-slide:not(.slick-active) {
+  opacity: 0.5;
+}
+  
+  .slick-slide {
+    padding: 0 5px;
+  }
+  
+  .card {
+    position: relative;
+
+    display: flex !important;
+    flex-direction: column;
+    height: 165px;
+    width: 165px;
+
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: white;
+
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+
+    transition: all .1s linear;
+
+    border-radius: 5px;
+    border-color: purple;
+    
+    @media screen and (max-width: 600px) {
+      height: auto;
+    }
+  }*/
+
+    /** Main link */
+
+    .card .main-link {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+      .card .main-link:focus {
+        outline: none;
+      }
+
+      .card .main-link:focus .title {
+        outline: 3px dashed orange;
+        outline-offset: -4px;
+        color: royalblue;
+        text-decoration: none;
+      }
+
+    /** Product title */
+
+    .card .title {
+      color: #000;
+      margin: 0;
+      padding: 10px 10px 5px 10px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+      .card .title:hover {
+        text-decoration: none;
+      }
+
+    /** Product image */
+ 
+    .card .image {
+      
+      order: -1;
+
+      position: relative;
+      height: 100px;
+      padding: 2px;
+      overflow: hidden;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+      .card .image img {
+        width: 100%;
+        height: 100%;
+     
+      
+      }
+
+    
+
+    /** Hover state = add box shadow, underline the title */
+
+    .card:hover {
+      border-color: rgba(0,0,0,.4);
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+      background-color: purple;
+      color: white;
+    }
+
+      .card:hover .image img,
+      .card:focus .image img {
+        filter: grayscale(0);
+      }
+
+      .card a:focus {
+        outline: none;
+      }
+
+
+
+/**
+  Demo only
+*/
+
+
+
+
+header .header-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    width: 100%;
+    padding:10px 20px;
+  }
+  
+  .header-2{
+  
+     height: 50px;
+     z-index: 1;
+     position: fixed;
+  
+     }
+     .header-2 .navbar{
+        margin-top: 15px;
+        z-index: 1;
+        margin-right: 300px;
+    
+     }
+     header .header-2 .navbar ul{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       list-style: none;
+     }
+  
+     header .header-2 .navbar ul li{
+       margin:10px;
+  
+     }
+  
+  
+     header .header-2 .navbar ul li a{
+       color:black;
+       font-size: 15px;
+  
+     }
+  
+     header .header-2 .navbar ul li a:hover{
+       color:purple;
+     }
+  
+     header .header-2 .icons img{
+      width: 100px;
+      margin-left: 400px;
+     }
+  
+     header .header-2 .icons a:hover{
+       color:#fff8;
+     }
+  
+     header .header-2.sticky{
+        position: fixed;
+        top: 0; left: 0;
+        box-shadow: 0 3px 5px #333;
+      }
+ 
+
+
+  /*header*/
+
+  header{
+    height: 60px;
+    }
+
+  header .header-scroll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+  }
+  
+  .header-scroll{
+  
+     height: 60px;
+     z-index: 1;
+  
+     }
+     .header-scroll .navbar{
+        z-index: 1;
+        margin-right: 300px;
+        margin: auto;
+     }
+     header .header-scroll .navbar ul{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       list-style: none;
+     }
+  
+     header .header-scroll .navbar ul li{
+       margin:10px;
+  
+     }
+  
+  
+     header .header-scroll .navbar ul li a{
+       color:black;
+       font-size: 15px;
+  
+     }
+  
+     header .header-scroll .navbar ul li a:hover{
+       color:purple;
+     }
+  
+     header .header-scroll .icons img{
+      width: 100px;
+      margin-left: 400px;
+     }
+  
+     header .header-scroll .icons a:hover{
+       color:#fff8;
+     }
+  
+   
+
+      .rubro-scroll{
+
+        width:345px;     
+        height: 40px;
+        border-radius: 5px;
+        padding: auto;
+        margin: auto;
+        margin-right: 10px;
+        border: 1px solid  #C0C0C0;
+       }
+       
+       .locacion-scroll{
+        width: 346px;
+        height: 40px;
+        border-radius: 5px;
+        padding: auto;
+        margin: auto;
+        margin-right: 10px;
+        border: 1px solid  #C0C0C0;
+       }
+       */
+       /*lupa*/
+
+
+       .search-field{
+    
+        padding: 0px;
+       }
+       
+       .search-btn{
+        height: 41px;
+        width:41px;
+        background-color: orange;
+        border: none;
+        color: white;
+        border-radius: 3px;
+       }
+       
+       .search-btn img{
+        width: 30px;
+       }
+       .search-btn:hover{
+        background: rgb(233, 175, 68);
+       }
+       
+       
+       ::placeholder {
+        padding-left: 10px;
+       }
+       .reg{
+        background-color: orange;
+        color: white;
+        font-size:15px;
+        border-radius: 5px;
+        width: 130px;
+        height: 35px;
+        margin: 0px;
+        border: none;
+       
+       }
+       
+       .reg:hover{
+          background-color: purple;
+       }
+       
+       .inicio{
+         background-color: #8e44ad;
+         color: white;
+         font-size:15px;
+         border-radius: 5px;
+         width: 130px;
+         height: 35px;
+         margin-left: 10px;
+         margin-right: 10px;
+         border: none;
+       }
+       
+       .inicio:hover{
+          background-color: orange;
+       }
+           
+
+       .banner{
+           width: 100%;
+           height:2000px;
+           background-color: blue;
+       }
+
+       .banner2{
+        width: 100%;
+        height:2000px;
+        background-color: red;
+    }
+
+ 
+ 

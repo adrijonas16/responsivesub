@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Goldplay-Light';
+  background: #fff;
+}
+
+section{
+    max-width: 100%;
+}
+
+.container2{
+    width: 100%;
+    margin: auto;
+}
+
+.slider{
+    width: 100%;
+}
+
+.slider {
+  margin-bottom: 30px;
+ 
+}
+
+.slider-card {
+
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 4px 90px 4px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+
+.centro{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 20%);
+    margin-right: 10px;
+}
+
+.centro img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 150px;
+}
+
+.centro .perfil{
+    width: 100%;
+    display: flex;
+
+    height: auto;
+} 
+
+.centro .perfil img{
+    border-radius: 50%;
+    width: 30% !important;
+    height: 30%;
+    margin-top: -39px;
+    border: 4px solid white;
+    margin-left: 10px;
+    outline: 2px solid grey;
+    object-fit: cover;
+}
+
+.centro .perfil .texto{
+    width: 60%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 7px;
+}
+
+.centro .perfil .texto h2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    padding-top: 5px;
+    text-align: left;
+    padding-bottom: 0px;
+    color: black;
+}
+
+ .centro .perfil .texto p{
+    font-size: 14px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+
+
+.centro .texto{
+    width: 70%;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 7px;
+}
+
+
+
+.centro .texto4 .correo{
+    font-size: 14px;
+    color: #12C4DD;
+    margin-bottom:5px;
+    font-family: 'Goldplay-Regular';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+
+}
+
+.centro .texto4 .ubi{
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin-bottom: 12px;
+    margin-left: -7px;
+}
+
+.centro .texto4 .ubi img{
+    width: 25px !important;
+    height: 20px;
+    border: none !important;
+    border-radius: 0px;
+    outline: none;
+    margin-top: 0px;
+    margin-left: 1px;
+
+}
+.centro .perfil .texto4 .ubi .texto2{
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 6px;
+    height:auto;
+    margin-right:5px;
+    
+}
+
+.centro .perfil .texto4 .ubi .texto2 p{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    margin-top: -1px;
+    font-family: 'Goldplay-Regular';
+    line-height: 15px;
+    margin-left: -3px;
+   /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+}
+
+/*.direccion{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}*/
+
+ .centro .primerbot{
+    width: 94%;
+    margin: auto;
+    padding:auto;
+}
+
+.centro .primerbot button{
+    width: 100%;
+    background-color: #6323C3;
+    color: white;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+    font-family: 'Goldplay-Regular';
+}
+
+.centro .redes{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    padding:auto;
+}
+
+.centro .redes .llamar{   
+    width: 49%;
+    color: white;
+    background-color: #12C4DD;
+    margin: auto;
+    padding:auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 0.875rem;
+    font-family: 'Goldplay-Regular';
+}
+
+.centro .redes .wasa{
+    width: 49%;
+    color: white;
+    background-color: rgb(13, 212, 29);
+    margin: auto;
+    padding:auto;
+    margin-bottom:10px ;
+    border-radius: 5px;
+    height: 25px;
+    font-size: 0.875rem;
+    font-family: 'Goldplay-Regular';
+}
+
+.texto3{
+    display: none;
+}

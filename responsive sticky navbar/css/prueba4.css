@@ -1,0 +1,177 @@
+.ubicacion{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.lugar{
+    width:50%;
+    height: 60px;
+    display: flex;
+}
+
+.lugar h2{
+    margin-top: 22px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 50%;
+    margin-left: 1%;
+}
+
+.lugar svg{
+    width: 30px;
+    fill: purple;
+    margin-left: 5%;
+}
+
+
+.cambiar{
+    width:50%;
+    float: right;
+    height: 60px;
+}
+
+.cambiar select{
+    background:transparent;
+    float: right;
+    font-size:12px;
+}
+
+
+.form-select{
+    border: none;
+}
+
+.ubicacion2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.lugar2{
+    width:50%;
+    height: 40px;
+    display: flex;
+    border-right: 1px black solid;
+}
+
+.lugar2 button{
+    width: 100%;
+    background: transparent;
+    border: none;
+    display: flex;
+}
+
+.lugar2 button h2{
+    margin: auto;
+    font-size: 13px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.lugar2 button svg{
+    width: 30px;
+    fill: purple;
+    margin: auto;
+}
+
+
+.cambiar2{
+    width:50%;
+    float: right;
+    height: 40px;
+  
+}
+
+.cambiar2 button{
+    width:100%;
+    background: transparent;
+    border: none;
+    display: flex;
+    margin: auto;
+    height: 40px;
+}
+
+
+.cambiar2 button h2{
+    font-size: 13px;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+}
+
+
+.cambiar2 button svg{
+    width: 30px;
+    fill: purple;
+    margin: auto;
+}
+
+.ubicacion3{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+
+.lugar3{
+    width:50%;
+    height: 40px;
+    display: flex;
+    border-right: 1px black solid;
+}
+
+.lugar3  h2{
+    margin: auto;
+    font-size: 13px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.lugar3 img{
+    width: 30px;
+    fill: purple;
+    margin: auto;
+}
+
+
+.cambiar3{
+    width:50%;
+    float: right;
+    height: 40px;
+  display:flex ;
+}
+
+.cambiar3 .content{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+}
+
+.cambiar3  .content h2{
+    font-size: 13px;
+    font-weight: bold;
+    width: 70%;
+    margin: auto;
+}
+
+
+.cambiar3 .content img{
+    width: 30px;
+    fill: purple;
+    margin: auto;
+}
+
+.cambiar3 .select{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    font-size: 12px;
+}
+
+.cambiar3 .select select{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-left: 20px;
+}

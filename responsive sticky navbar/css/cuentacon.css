@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-transform: none;
+    font-family: 'Goldplay-Light';
+    text-decoration: none;
+    outline: none; border:none;
+  }
+
+body{
+    background-color: white;
+    width: 100%;
+}
+
+nav{
+    background-color: #F6F5F5;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    padding:auto;
+}
+
+nav img{
+    width: 100px;
+    margin-left:40% ;
+    margin-top: 15px;
+}
+
+.login{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+.login .texto{
+    width: 100%;
+    height: 80px;
+}
+
+.login .texto h1{
+    color: #6323C3;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.login .texto p{
+    color: #12C4DD;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login .cuenta{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.login .cuenta img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    padding: auto;
+    margin-left: 65px;
+}
+
+.login .cuenta h1{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-top:20px ;
+    padding-bottom:20px ;
+}
+
+
+.login .tambien{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+
+.login .tambien .linea{
+    width: 30%;
+    margin: auto;
+    padding: auto;
+}
+
+.login .tambien .linea hr{
+    width: 100%;
+    color: black;
+    margin: auto;
+    padding: auto;
+}
+
+.login .tambien p{
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    font-size: 15px;
+    color: #808080;
+}
+
+
+.login .botones2 .crear{
+    width: 100%;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 50px;
+}
+
+.login .botones .si{
+    width: 100%;
+    background-color: #6323C3;
+    color: white;
+    border-radius:8px ;
+    height: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login .botones .no{
+    width: 100%;
+    background-color: white;
+    color:#6323C3;
+    border-radius:8px ;
+    height: 45px;
+    font-weight: bold;
+    border: 1px solid #6323C3;
+}
+
+
+
+

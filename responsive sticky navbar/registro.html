@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- font awesome cdn link  -->
+     <!-- custom css file link  -->
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+   <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/registro.css">
+    <link href = "fonts/Goldplay-Light/style.css" rel = "stylesheet" type = "text/css" />
+    <link href = "fonts/Goldplay-Regular/style.css" rel = "stylesheet" type = "text/css" />
+
+</head>
+    
+<header>
+
+
+
+    <body>
+
+        <section class="header">
+            <div class="contenedor">
+                <div class="imagen">
+                    <img src="images/1.png">
+                </div>
+                <div class="formulario">
+                    <form id="form_datos">
+                    <div class="registro web" >
+
+                        <div class="texto">
+                            <h1>Crea tu cuenta</h1>
+                            <p>Completa los siguientes datos</p>
+                        </div>
+            
+                        <div class="datos">
+                            <div class="datos2">
+                                <h3>Nombre y apellidos <span>*</span></h3>
+                                <input type="text" id="contacto" name="contacto" required>
+                            </div>
+                            <div class="columna">
+                            <div class="datos2">
+                                <h3>Telefono Móvil<span>*</span></h3>
+                                <input type="text" class="telefono" id="telefono" name="telefono" required>
+                            </div>
+                            <div class="datos2">
+                                <h3>Correo Electrónico <span>*</span></h3>
+                                <input type="text" class="correo" id="correo" name="correo" required>
+                                <p><span>Enviaremos un codigo para verificar tu cuenta</span></p>
+                            </div>
+
+                        </div>
+                        <div class="columna2">
+                            <div class="datos2">
+                                <h3>Razón Social <span>*</span></h3>
+                                <input type="text" class="razon" id="razon_social" name="razon_social" required>
+                            </div>
+                            <div class="datos2">
+                                <h3>RUC <span>*</span></h3>
+                                <input type="text" class="ruc" id="ruc" name="ruc" required>
+                            </div>
+                        </div>
+                        <div class="columna3">
+                            <div class="datos2">
+                                <h3>Ingresa tu clave <span>*</span></h3>
+                                <input class="password" type="password" id="clave" name="clave" required>
+                                <p>Por favor que sea entre 6 a 20 caracteres</p>
+                            </div>
+                            <div class="texto">
+                                <p >Evita los datos muy específicos personales como tu nombre completo,
+                                    tu número de teléfono o e-mail y tampoco emplees
+                                    contraseñas fáciles de adivinar.</p>
+                                    <br>
+                                    
+                            </div>
+
+                            
+                        </div>
+                        <div class="check">
+                            <input type="checkbox">
+                            <p>Acepto que soy mayor de edad y estoy de acuerdo con los
+                                Términos y Condiciones y confirmo el uso de mis datos de acuerdo
+                                a la Declaración de Privacidad.</p>
+                            </div>
+                            <div class="continuar">
+                                <button class="continuarbu" type="submit">
+                                    Continuar
+                                </button>
+                            </div>
+                        </div>
+            
+                        </div>
+                    </form>
+                        <div class="codigoweb" id="verificarCodigo">
+    
+                            <div class="texto">
+                                <h1>Ingresa el codigo enviado a tu correo electrónico</h1>
+            
+                            </div>
+            
+                            <div class="correo">
+                                <img src="images/icons8-correo-24.png">
+                                <h2 id="correover"></h2>
+                            </div>
+            
+                            <div class="texto2">
+                                <p>Te hemos enviado el código al correo electrónico 
+                                    para verificar que esta cuenta te pertenece. De 
+                                    no conseguirlo, ubícalo por spam o correo no deseado
+                                </p>
+                            </div>
+            
+                            <div class="codigo">
+                                <input type="number" class="code_input" id="code_input" name="code_input" required>
+                       
+                            </div>
+            
+                            <div class="botones">
+                                <button class="verificar" onclick="validarCorreo()">Verificar el código</button>
+                                <button class="reenviar">Reenviar código</button>
+                            </div>
+                        </div>  
+                        
+                        
+                        <div class="verificado" id="verificado">
+
+                            <div class="gif">
+                                <img src="images/gif/icons8-en-progreso.gif">
+                            </div>
+            
+                            <div class="texto">
+                                <h1>Verificación completada</h1>
+                                <p><b>¡Bienvenido, <span id="nombre"> </span></b> ya has creado tu cuenta en <b>TODOS</b></p>
+                            </div>
+            
+            
+                        <div class="botones">
+                            <button class="continuar">Continuar</button>
+                        
+                        </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="pasos">
+            <div class="texto">
+            <h1>Estás a unos pasos de impulsar tu presencia por internet</h1>
+        </div>
+        </section>
+
+
+
+        <nav class="movil">
+            <img src="images/svg/logotipotodosmarketingdigital.png">
+        </nav>
+
+        <form id="form_datos2">
+
+        <div class="registro1" id="registro1">
+
+            <div class="texto">
+                <h1>Crea tu cuenta</h1>
+                <p>Completa los siguientes datos</p>
+            </div>
+
+            <div class="datos">
+                <div class="datos2">
+                    <h3>Nombre y apellidos</h3>
+                    <input type="text" id="contacto2" name="contacto2" required>
+                </div>
+                <div class="datos2">
+                    <h3>Telefono Móvil</h3>
+                    <input type="text"  id="telefono2" name="telefono2" required>
+                </div>
+                <div class="datos2">
+                    <h3>Correo Electrónico</h3>
+                    <input type="text" id="correo2" name="correo2" required>
+                </div>
+                <div class="datos2">
+                    <h3>Razón Social</h3>
+                    <input type="text" id="razon_social2" name="razon_social2" required>
+                </div>
+                <div class="datos2">
+                    <h3>RUC</h3>
+                    <input type="text" id="ruc2" name="ruc2" required>
+                </div>
+                <div class="datos2">
+                    <h3>Ingresa tu clave</h3>
+                    <input class="password" type="text" type="password" id="clave2" name="clave2" required>
+                    <p>Por favor que sea entre 6 a 20 caracteres</p>
+                </div>
+                <div class="texto">
+                    <p >Evita los datos muy específicos personales como tu nombre completo,
+                        tu número de teléfono o e-mail y tampoco emplees
+                        contraseñas fáciles de adivinar.</p>
+                        <br>
+                        <div class="check">
+                        <input type="checkbox">
+                        <p>Acepto que soy mayor de edad y estoy de acuerdo con los
+                            Términos y Condiciones y confirmo el uso de mis datos de acuerdo
+                            a la Declaración de Privacidad.</p>
+                        </div>
+                </div>
+
+                <div class="continuar">
+                    <button class="continuarbu" type="submit">
+                        Continuar
+                    </button>
+                </div>
+            </div>
+            </div>
+        </form>
+
+            <div class="registro2" id="registro2">
+    
+                <div class="texto">
+                    <h1>Ingreso el codigo enviado a tu correo electrónico</h1>
+
+                </div>
+
+                <div class="correo">
+                    <img src="images/icons8-correo-24.png">
+                    <h2 id="correover2"></h2>
+                </div>
+
+                <div class="texto2">
+                    <p>Te hemos enviado el código al correo electrónico 
+                        para verificar que esta cuenta te pertenece. De 
+                        no conseguirlo, ubícalo por spam o correo no deseado
+                    </p>
+                </div>
+
+                <div class="codigo">
+                    <input type="number" class="code_input2" id="code_input2" name="code_input2">
+   
+                </div>
+
+                <div class="botones">
+                    <button class="verificar" onclick="verificar2()">Verificar el código</button>
+                    <button class="reenviar">Reenviar código</button>
+                </div>
+            </div> 
+            
+            <div class="verificado2 " id="verificado2">
+
+                <div class="gif">
+                    <img src="images/gif/icons8-en-progreso.gif">
+                </div>
+
+                <div class="texto">
+                    <h1>Verificación completada</h1>
+                    <p><b>¡Bienvenido, <span id="nombre2">Alberto Navarro!</span></b> ya has creado tu cuenta en <b>TODOS</b></p>
+                </div>
+
+
+            <div class="botones">
+                <button class="continuar">Continuar</button>
+            
+            </div>
+
+            </div>
+
+
+
+
+        <script src="js/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <!-- swiper js link  
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>-->
+    <script src="slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <!-- custom js file link  -->
+    <script src="js/registro.js" type="text/javascript"></script>
+    <script src="js/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <div class="content"></div>
+    
+    
+    </body>
+    </html>
+
+
+
